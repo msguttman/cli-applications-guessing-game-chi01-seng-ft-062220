@@ -17,7 +17,7 @@ def compare_numbers(rand_int, user_guess)
   elsif user_guess == "exit"
     puts "Goodbye!"
   else
-    "Sorry! The computer guessed #{rand_int}."
+    puts "Sorry! The computer guessed #{rand_int}."
   end
 end
 
@@ -27,4 +27,3 @@ def run_guessing_game
   compare_numbers(rand_int, user_guess)
 end
 
-run_guessing_game
