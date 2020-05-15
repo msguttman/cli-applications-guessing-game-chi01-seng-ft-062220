@@ -7,7 +7,6 @@ def new_rand_int
 end
 
 def prompt_user
-  puts "guess?"
   guess = gets.chomp
   guess
 end
