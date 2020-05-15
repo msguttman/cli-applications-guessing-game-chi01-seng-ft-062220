@@ -2,7 +2,7 @@
 
 
 def new_rand_int
-  new_rand_int = rand(1..6)
+  new_rand_int = rand(6) + 1
   new_rand_int
 end
 
