@@ -1,7 +1,16 @@
 # Code your solution here!
 
 
+def new_rand_int
+  new_rand_int = rand(1..6)
+  new_rand_int
+end
 
+def prompt_user
+  puts "guess?"
+  guess = gets.chomp
+  guess
+end
 
 
 
