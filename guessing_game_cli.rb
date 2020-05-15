@@ -27,4 +27,4 @@ def run_guessing_game
   compare_numbers(rand_int, user_guess)
 end
 
-
+run_guessing_game
