@@ -2,8 +2,8 @@
 
 
 def new_rand_int
-  new_rand_int = rand(6) + 1
-  new_rand_int
+  new_int = rand(6) + 1
+  new_int
 end
 
 def prompt_user
